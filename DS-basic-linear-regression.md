@@ -12,28 +12,10 @@ from sklearn.linear_model import LinearRegression
 df = pd.read_excel('data/data.xls')
 ```
 
-
 ```python
 df[0: 2]
 ```
 
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-    
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -88,8 +70,6 @@ df[0: 2]
     </tr>
   </tbody>
 </table>
-</div>
-
 
 
 
@@ -98,22 +78,11 @@ df.loc[:5,['date', 'drawal_mus']]
 ```
 
 
-
-
 <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-    
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -155,8 +124,6 @@ df.loc[:5,['date', 'drawal_mus']]
     </tr>
   </tbody>
 </table>
-</div>
-
 
 
 
