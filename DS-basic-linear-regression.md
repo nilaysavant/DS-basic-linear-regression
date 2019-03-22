@@ -77,12 +77,6 @@ df[0: 2]
 df.loc[:5,['date', 'drawal_mus']]
 ```
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -124,6 +118,7 @@ df.loc[:5,['date', 'drawal_mus']]
     </tr>
   </tbody>
 </table>
+
 
 
 
